@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: $text-dark;
+    background: $primary-bg;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px
+}
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    color: $text-dark;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 90vw;
+    @media screen and (min-width: 576px) {
+        max-width: 90vw;
+    }
+    @media screen and (min-width: 1365px) {
+        max-width: 1300px;
+    }
+    @media screen and (min-width: 1400px) {
+        max-width: 1320px;
+    }
+    @media screen and (min-width: 1580px) {
+        max-width: 1540px;
+    }
+    @media screen and (min-width: 1700px) {
+        max-width: 1656px;
+    }
+    @media screen and (max-width: 576px) {
+        padding: 0;
+    }
+}
+.text-secondary{
+    color: $text-secondary-light;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-primary-green{
+    color: $primary-link;
+}
+b{
+    font-weight: bold;
+}
+
+.mt-10{
+    margin-top: 10vh;
+    @media screen and (max-width: 1200px) {
+        margin-top: 5vh;
+        
+    }
+}
+.mt-15{
+    margin-top: 15vh;
+    @media screen and (max-width: 1200px) {
+        margin-top: 10vh;
+        
+    }
+}
+.my-15{
+    margin-top: 15vh !important;
+    margin-bottom: 15vh !important;
+    @media screen and (max-width: 1200px) {
+        margin-top: 10vh !important;
+        margin-bottom: 10vh !important;
+        
+    }
+}

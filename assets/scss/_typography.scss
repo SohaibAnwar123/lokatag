@@ -1,0 +1,37 @@
+h1, h2, h3 ,h4 ,h5 ,h6, p, label, a{
+    margin: 0;
+}
+h1{
+    font-size: clamp(52px, 6.25vw, 120px);
+    line-height: 120%;
+}
+h2{
+    font-size: clamp(28px, 4.8vw, 92px);
+    line-height: 120%;
+}
+h3{
+    font-size: clamp(20px, 2.08vw, 40px);
+    line-height: 120%;
+}
+h4{
+    font-size: clamp(16px, 1.56vw, 30px);
+    line-height: 120%;
+}
+h5{
+    font-size: clamp(14px, 1.15vw, 22px);
+    line-height: 120%;
+}
+p{
+    font-size: clamp(14px, 1.15vw, 22px);
+    line-height: 150%;
+}
+
+.h2{
+    font-size: clamp(16px, 2.2vw, 38px)
+}
+.h3{
+    font-size: clamp(16px, 1.65vw, 32px)
+}
+.h4{
+    font-size: clamp(16px, 1.2vw, 24px)
+}

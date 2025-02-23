@@ -1,0 +1,81 @@
+.custom-dropdown{
+    min-width: 140px;
+    position: relative;
+    .btn{
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+    .dropdown-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dropdown-menu{
+        background: $primary-bg;
+        min-width: 100% ;
+        .dropdown-item{
+            color: $text-dark;
+            font-size: 22px;
+            &.active, &:active, &:hover{
+                background: $primary-blue;
+                color: $text-color;
+            }
+        }
+    }
+}
+  
+.btn{
+    color: $text-dark;
+    padding: 20px 33px;
+    border-radius: 12px;
+    font-size: clamp(14px, 1.15vw, 22px);
+    letter-spacing: 1px;
+    outline: none;
+    appearance: none;
+
+    &.btn-lg{
+        font-size: clamp(16px, 1.65vw, 32px);
+        padding: 22px 40px; 
+    }
+
+    &.btn-primary{
+        background: $primary-blue;
+        color: $text-color;
+        &:hover{
+            color: $text-color;
+        }
+    }
+    &.btn-green{
+        background: $primary-link;
+        color: $text-color;
+        &:hover{
+            color: $text-color;
+        }
+    }
+    &:focus{
+        box-shadow: none;
+    }
+    &:hover{
+        color: $text-dark;
+    }
+
+    @media screen and (max-width: 1580px) {
+        padding: 14px 26px;
+        border-radius: 10px;
+    }
+    @media screen and (max-width: 1080px) {
+        padding: 12px 22px;
+    }
+    @media screen and (max-width: 568px){
+        padding: 10px 22px;
+        &.btn-lg{
+            padding: 14px 28px;
+        }
+    }
+}
+
+// Modal Styles 
+.modal-content{
+    background: #F8EB02;
+}
